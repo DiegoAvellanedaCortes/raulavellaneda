@@ -1,0 +1,79 @@
+.busqueda-inicio {
+    display: flex;
+    justify-content: center;
+
+}
+
+.busqueda-inicio input {
+    border-radius: 25px;
+    padding-left: 15px;
+    padding-right: 10px;
+    width: 60%;
+    height: 25px;
+    font-size: 25;
+}
+
+.icon-search {
+    display: block;
+    font-size: 25px;
+}
+
+.banner-contacto-youtube {
+    background-color: #2C2F36;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    padding: 30px;
+}
+
+form {
+    width: 450px;
+    height: 285px;
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 219px;
+    padding: 23px;
+}
+
+.titulo-formulario {
+    font-weight: bold;
+    text-align: center;
+    color: #D86A2D;
+    padding: 17px;
+}
+
+form input {
+    background-color: #d8d8d8;
+    height: 33px;
+    border: none;
+    margin-bottom: 15px;
+}
+
+#nombreForm {
+    width: 100%;
+}
+
+#municipioForm {
+    width: 53%;
+}
+
+#celularForm {
+    width: 42%;
+}
+
+.celular-municipio {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#mensaje {
+    width: 100%;
+}
+
+form button{
+    background-color: #D86A2D;
+    color: white;
+    width: 180px;
+    height: 33px;
+}

@@ -1,0 +1,51 @@
+footer {
+    height: 219px;
+    background: var(--color-primario);
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 72px;
+    color: white;
+}
+
+footer .footer-nombre>p {
+    font-size: 64px;
+    font-weight: 300;
+    cursor: default;
+}
+
+footer>.paginas {
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer>.paginas>ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 14px;
+}
+
+footer>.links {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.links > a {
+    text-decoration: none;
+    color: white;
+}
+
+.contenedor-redes{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
