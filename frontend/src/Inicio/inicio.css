@@ -71,9 +71,16 @@ form input {
     width: 100%;
 }
 
-form button{
+.btnFormularioContacto{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btnFormularioContacto button{
     background-color: #D86A2D;
     color: white;
     width: 180px;
     height: 33px;
 }
+
