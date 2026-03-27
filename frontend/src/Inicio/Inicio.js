@@ -2,6 +2,7 @@ import "./inicio.css";
 import { CiSearch } from "react-icons/ci";
 import { useState } from "react";
 import municipiosData from "../municipiosCUn.json";
+import { SectionYoutube } from "../sectionYoutube/sectionYoutube";
 
 
 
@@ -12,8 +13,7 @@ function Inicio() {
     const [municipio, setMunicipio] = useState("");
     const [mensaje, setMensaje] = useState("");
     const municipios = municipiosData;
-
-
+    
     return (
         <>
             <h1>Inicio</h1>
@@ -114,7 +114,7 @@ function Inicio() {
                     </form>
                 </div>
                 <div className="SectionYoutube">
-                    
+                    <SectionYoutube/>
                 </div>
             </section>
         </>
