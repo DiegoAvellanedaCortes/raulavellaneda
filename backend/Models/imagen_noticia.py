@@ -6,4 +6,4 @@ class ImagenNoticia(Base):
     id_imagen_noticia = Column(Integer, primary_key=True, index=True)
     id_noticia=Column(Integer)
     id_imagen=Column(Integer)
-    tipo = Column(String)
+    tipo_img = Column(String)

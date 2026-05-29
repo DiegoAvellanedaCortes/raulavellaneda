@@ -3,7 +3,7 @@ import { CiSearch } from "react-icons/ci";
 import { useState } from "react";
 import municipiosData from "../municipiosCUn.json";
 import { SectionYoutube } from "../sectionYoutube/sectionYoutube";
-
+import { BannerNoticias } from "../bannerNoticias/bannerNoticias";
 
 
 function Inicio() {
@@ -15,8 +15,7 @@ function Inicio() {
     const municipios = municipiosData;
     
     return (
-        <>
-            <h1>Inicio</h1>
+        <>  
             <section className="busqueda-inicio">
                 <input type="text" placeholder="Buscar" value={dataSearch} onChange={
                     (event) => {
@@ -30,8 +29,8 @@ function Inicio() {
                     }
                 } />
             </section>
-            <section className="banner-noticias">
-
+            <section className="section-banner-noticias">
+                <BannerNoticias />
             </section>
             <section className="banner-contacto-youtube">
                 <div className="formulario-contacto">

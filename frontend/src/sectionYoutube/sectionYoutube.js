@@ -8,7 +8,6 @@ function SectionYoutube() {
 
     useEffect(() => {
         const url = process.env.REACT_APP_URL_API + "/consultaVideos";
-        console.log(url);
         fetch(url)
             .then(respuesta => respuesta.json())
             .then(data => {
@@ -47,6 +46,7 @@ function SectionYoutube() {
                             return (
                                 <div
                                     className="card_video"
+                                    key={video.title}
                                     onClick={()=>{
                                         setVideoSeleccionado(video);
                                     }}
